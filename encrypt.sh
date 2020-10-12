@@ -30,9 +30,69 @@ fi
 elif [ $a = 2 ]
 then
 
-####
-echo "Sorry this feature is still pending... You file is encrypted now :("
-####
+echo -n "Enter the file name : "
+read name
+sed -i "s/6\^\^/a/g" $name
+sed -i "s/\,,\/b/g" $name
+sed -i "s/@@/c/g" $name
+sed -i "s/*\^/d/g" $name
+sed -i "s/%4%/e/g" $name
+sed -i "s/+0_0+/f/g" $name
+sed -i "s/#\^\^#/g/g" $name
+sed -i "s/></h/g" $name
+sed -i "s/\.9\./i/g" $name
+sed -i "s/;=;/j/g" $name
+sed -i "s/2!4/k/g" $name
+sed -i "s/69%69/l/g" $name
+sed -i "s/(#!)/m/g" $name
+sed -i "s/>>>>/n/g" $name
+sed -i "s/~/o/g" $name
+sed -i "s/-=-/p/g" $name
+sed -i "s/8/q/g" $name
+sed -i "s/+??/r/g" $name
+sed -i "s/(%%)/s/g" $name
+sed -i "s/0#0/t/g" $name
+sed -i "s/;:;/u/g" $name
+sed -i "s/7\^\^8/v/g" $name
+sed -i "s/{69}/w/g" $name
+sed -i "s/(\[)]/x/g" $name
+sed -i "s/@3\^3@/y/g" $name
+sed -i "s/?00?/z/g" $name
+sed -i "s/"++99++"/A/g" $name 
+sed -i "s/\[:]/B/g" $name
+sed -i "s/3883/C/g" $name
+sed -i "s/\$/D/g" $name
+sed -i "s/\^_\^/E/g" $name
+sed -i "s/0%0%/F/g" $name
+sed -i "s/{{{}}}/G/g" $name 
+sed -i "s/,%,/H/g" $name
+sed -i "s/:\.:/I/g" $name
+sed -i "s/@~~@/J/g" $name
+sed -i "s/\[(])/K/g" $name
+sed -i "s/::/L/g" $name
+sed -i "s/\\.\/M/g" $name 
+sed -i "s/!~~!/N/g" $name
+sed -i "s/:<3/O/g" $name
+sed -i "s/<<<</P/g" $name
+sed -i "s/--+--/Q/g" $name
+sed -i "s/((=+=))/T/g" $name
+sed -i "s/\.\.+\.\./R/g" $name
+sed -i "s/<^>/S/g" $name
+sed -i "s/,?/U/g" $name
+sed -i "s/|00|/V/g" $name
+sed -i "s/{|}/W/g" $name
+sed -i "s/--8--/X/g" $name 
+sed -i "s/()/Y/g" $name
+sed -i "s/(,.)/Z/g" $name
+sed -i "s/!/ /g"  $name
+
+if [ $? = 0 ]
+then
+echo
+echo "$name has been decrypted successfully.  :)"
+else
+echo
+echo "Task failed successfully!!!"
 
 fi
 
